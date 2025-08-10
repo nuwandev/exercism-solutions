@@ -18,7 +18,9 @@ Every solution here is written by me and reflects my own problem-solving approac
 ## 📈 Progress Stats
 
 <!-- STATS_START -->
-🏗 Loading stats... (run `update-readme.js` to generate)
+- ✅ **Total JavaScript Exercises Completed:** 23
+- 📁 **Total JavaScript Files:** 25 `.js` files
+- 🌐 **Languages Solved In:** JavaScript
 <!-- STATS_END -->
 
 > _This section is auto-updated using a Node.js script and GitHub Action._
