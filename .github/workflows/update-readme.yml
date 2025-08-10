@@ -1,5 +1,8 @@
 name: 📊 Update README Stats
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
