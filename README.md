@@ -18,8 +18,8 @@ Every solution here is written by me and reflects my own problem-solving approac
 ## 📈 Progress Stats
 
 <!-- STATS_START -->
-- ✅ **Total JavaScript Exercises Completed:** 23
-- 📁 **Total JavaScript Files:** 25 `.js` files
+- ✅ **Total JavaScript Exercises Completed:** 24
+- 📁 **Total JavaScript Files:** 26 `.js` files
 - 🌐 **Languages Solved In:** JavaScript
 <!-- STATS_END -->
 
