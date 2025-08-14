@@ -18,12 +18,21 @@ Every solution here is written by me and reflects my own problem-solving approac
 ## 📈 Progress Stats
 
 <!-- STATS_START -->
-- ✅ **Total JavaScript Exercises Completed:** 25
-- 📁 **Total JavaScript Files:** 27 `.js` files
+- ✅ **Total Exercises:** 0
+- 📁 **Total Files Found:** 0
 - 🌐 **Languages Solved In:** JavaScript
 <!-- STATS_END -->
 
 > _This section is auto-updated using a Node.js script and GitHub Action._
+
+---
+
+## 🗂 Exercises (newest first)
+
+<!-- EXERCISES_START -->
+<!-- EXERCISES_END -->
+
+> Click an exercise name to open the source file. New exercises appear at the top automatically.
 
 ---
 
@@ -52,4 +61,3 @@ Every solution here is written by me and reflects my own problem-solving approac
 ## 📄 License
 
 This repository is open source and available under the [MIT License](LICENSE).
-
