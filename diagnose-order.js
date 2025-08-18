@@ -10,7 +10,7 @@ function readdirSafe(p){ try{ return fs.readdirSync(p);}catch{return [];} }
 
 function gitTs(p) {
   try {
-    const out = execSync(`git log -1 --format=%ct -- "${p}"`, { encoding: "utf8' , stdio: ['pipe','pipe','ignore'] });
+    const out = execSync(`git log -1 --format=%ct -- "${p}"`, { encoding: 'utf8', stdio: ['pipe','pipe','ignore'] });
     const s = String(out).trim();
     return s ? parseInt(s, 10) * 1000 : 0;
   } catch { return 0; }
