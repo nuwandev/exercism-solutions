@@ -1,4 +1,4 @@
-// update-readme.js (robust folder-level git times)
+// update-readme.js (fixed)
 const fs = require("fs");
 const path = require("path");
 const { execSync } = require("child_process");
@@ -16,11 +16,13 @@ function readdirSafe(p) {
 function gitTimestampForPath(p) {
   // returns milliseconds timestamp (Number) or 0 if no git info
   try {
-    // Use git log on the path (works on directories too) and return the most recent commit timestamp
-    const out = execSync(`git log -1 --format=%ct -- "${p}"`, { encoding: "utf8', stdio: ['pipe','pipe','ignore'] });
-    const s = String(out).trim();
-    if (!s) return 0;
-    return parseInt(s, 10) * 1000;
+    // Use git log -1 --format=%ct -- "<path>"
+    const out = execSync(`git log -1 --format=%ct -- "${p}"`, {
+      encoding: "utf8",
+      stdio: ["pipe", "pipe", "ignore"],
+    }).trim();
+    if (!out) return 0;
+    return parseInt(out, 10) * 1000;
   } catch (e) {
     return 0;
   }
@@ -51,10 +53,6 @@ function findBestFile(exerciseDir) {
   return pickFromDir(exerciseDir);
 }
 
-// compute "most reliable" timestamp for an exercise folder:
-// 1) git log -1 on the folder (path) -> should return last commit touching any file in folder
-// 2) if not available, compute max git log -1 per file inside folder
-// 3) fallback to filesystem mtime of best file or folder
 function computeExerciseTime(exerciseDir) {
   // 1) try folder-level git time
   let t = gitTimestampForPath(exerciseDir);
@@ -116,7 +114,7 @@ for (const lang of languages) {
     exerciseItems.push({
       name: ex,
       link: `./${relativeLink}`,
-      mtime: timestamp
+      mtime: timestamp,
     });
   }
 
