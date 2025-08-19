@@ -22,9 +22,9 @@ _Last updated: —_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 29
-- 📁 **Total Files Found:** 29
-- 🌐 **Languages Solved In:** javascript (29)
+- ✅ **Total Exercises:** 30
+- 📁 **Total Files Found:** 30
+- 🌐 **Languages Solved In:** javascript (30)
 <!-- STATS_END -->
 
 > The stats above are generated automatically.
@@ -61,6 +61,7 @@ _Last updated: —_
 - [ozans-playlist](./solutions/javascript/ozans-playlist/1/ozans-playlist.js)
 - [pizza-order](./solutions/javascript/pizza-order/1/pizza-order.js)
 - [poetry-club-door-policy](./solutions/javascript/poetry-club-door-policy/1/door-policy.js)
+- [recycling-robot](./solutions/javascript/recycling-robot/1/assembly-line.js)
 - [regular-chatbot](./solutions/javascript/regular-chatbot/1/regular-chatbot.js)
 - [train-driver](./solutions/javascript/train-driver/1/train-driver.js)
 - [translation-service](./solutions/javascript/translation-service/1/service.js)
