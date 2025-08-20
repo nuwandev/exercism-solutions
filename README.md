@@ -22,9 +22,9 @@ _Last updated: —_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 30
-- 📁 **Total Files Found:** 30
-- 🌐 **Languages Solved In:** javascript (30)
+- ✅ **Total Exercises:** 31
+- 📁 **Total Files Found:** 31
+- 🌐 **Languages Solved In:** javascript (30), typescript (1)
 <!-- STATS_END -->
 
 > The stats above are generated automatically.
@@ -67,6 +67,11 @@ _Last updated: —_
 - [translation-service](./solutions/javascript/translation-service/1/service.js)
 - [vehicle-purchase](./solutions/javascript/vehicle-purchase/1/vehicle-purchase.js)
 - [windowing-system](./solutions/javascript/windowing-system/1/windowing-system.js)
+
+
+### typescript
+
+- [hello-world](./solutions/typescript/hello-world/1/hello-world.ts)
 
 <!-- EXERCISES_END -->
 
