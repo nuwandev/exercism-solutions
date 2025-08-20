@@ -22,9 +22,9 @@ _Last updated: —_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 33
-- 📁 **Total Files Found:** 33
-- 🌐 **Languages Solved In:** javascript (30), typescript (3)
+- ✅ **Total Exercises:** 35
+- 📁 **Total Files Found:** 35
+- 🌐 **Languages Solved In:** javascript (30), typescript (5)
 <!-- STATS_END -->
 
 > The stats above are generated automatically.
@@ -73,6 +73,8 @@ _Last updated: —_
 
 - [hello-world](./solutions/typescript/hello-world/1/hello-world.ts)
 - [resistor-color](./solutions/typescript/resistor-color/1/resistor-color.ts)
+- [resistor-color-duo](./solutions/typescript/resistor-color-duo/1/resistor-color-duo.ts)
+- [resistor-color-trio](./solutions/typescript/resistor-color-trio/1/resistor-color-trio.ts)
 - [two-fer](./solutions/typescript/two-fer/1/two-fer.ts)
 
 <!-- EXERCISES_END -->
