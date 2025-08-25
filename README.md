@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 22/08/2025, 21:36:45 (Asia/Colombo)_
+_Last updated: 25/08/2025, 12:42:14 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 22/08/2025, 21:36:45 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 37
-- 📁 **Total Files Found:** 37
-- 🌐 **Languages Solved In:** javascript (30 ex, 832 lines), typescript (7 ex, 51 lines)
-- 🧾 **Total Lines of Code (approx):** 883 (883 lines)
+- ✅ **Total Exercises:** 38
+- 📁 **Total Files Found:** 38
+- 🌐 **Languages Solved In:** javascript (30 ex, 832 lines), typescript (8 ex, 65 lines)
+- 🧾 **Total Lines of Code (approx):** 897 (897 lines)
 <!-- STATS_END -->
 
 > The stats above are generated automatically.
@@ -78,6 +78,7 @@ _Last updated: 22/08/2025, 21:36:45 (Asia/Colombo)_
 - [resistor-color-duo](./solutions/typescript/resistor-color-duo/1/resistor-color-duo.ts)
 - [resistor-color-trio](./solutions/typescript/resistor-color-trio/1/resistor-color-trio.ts)
 - [rna-transcription](./solutions/typescript/rna-transcription/1/rna-transcription.ts)
+- [space-age](./solutions/typescript/space-age/1/space-age.ts)
 - [two-fer](./solutions/typescript/two-fer/1/two-fer.ts)
 
 <!-- EXERCISES_END -->
