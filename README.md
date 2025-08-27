@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 26/08/2025, 17:15:12 (Asia/Colombo)_
+_Last updated: 27/08/2025, 10:14:36 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
