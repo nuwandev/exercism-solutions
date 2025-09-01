@@ -6,14 +6,18 @@ const repoRoot = __dirname;
 const solutionsRoot = path.join(repoRoot, "solutions");
 const readmePath = path.join(repoRoot, "README.md");
 
-const preferredExts = [".js", ".ts", ".py", ".go", ".java", ".rb", ".cpp", ".c"];
+// Preferred extensions for picking files
+const preferredExts = [".ts", ".js", ".py", ".go", ".java", ".rb", ".cpp", ".c"];
+
+// Put languages you want prioritized here (types first)
+const languagePriority = ["typescript", "javascript"];
 
 // Safe readdir
 function readdirSafe(p) {
   try { return fs.readdirSync(p); } catch { return []; }
 }
 
-// Get last git commit time (ms) for a path, or 0
+// Run git log for a path and return commit unix timestamp (ms). 0 if none.
 function gitTimestampForPath(p) {
   try {
     const out = execSync(`git log -1 --format=%ct -- "${p}"`, {
@@ -27,78 +31,80 @@ function gitTimestampForPath(p) {
   }
 }
 
-// Pick the "best" file in an exercise folder (same logic as before)
-function findBestFile(exerciseDir) {
-  const entries = readdirSafe(exerciseDir);
-  const iterationDirs = entries
-    .map(e => path.join(exerciseDir, e))
-    .filter(p => fs.existsSync(p) && fs.statSync(p).isDirectory());
-
-  function pickFromDir(dir) {
-    const files = readdirSafe(dir)
-      .map(f => ({ name: f, full: path.join(dir, f) }))
-      .filter(f => fs.existsSync(f.full) && fs.statSync(f.full).isFile());
-    for (const ext of preferredExts) {
-      const found = files.find(fi => fi.name.toLowerCase().endsWith(ext));
-      if (found) return found.full;
-    }
-    if (files.length) return files[0].full;
-    return null;
+// Recursively collect all files under dir
+function collectFiles(dir) {
+  const result = [];
+  for (const ent of readdirSafe(dir)) {
+    const full = path.join(dir, ent);
+    try {
+      const st = fs.statSync(full);
+      if (st.isDirectory()) result.push(...collectFiles(full));
+      else if (st.isFile()) result.push(full);
+    } catch (e) {}
   }
-
-  for (const d of iterationDirs) {
-    const file = pickFromDir(d);
-    if (file) return file;
-  }
-  return pickFromDir(exerciseDir);
+  return result;
 }
 
-// Compute mtime by git or fallback to file mtime
-function computeExerciseTime(exerciseDir) {
-  let t = gitTimestampForPath(exerciseDir);
-  if (t) return t;
+// Choose newest file inside exercise (by git timestamp primarily, fallback to mtime)
+function newestFileInExercise(exerciseDir) {
+  const files = collectFiles(exerciseDir);
+  if (!files.length) return null;
 
-  const filesList = [];
-  function collectFiles(dir) {
-    for (const ent of readdirSafe(dir)) {
-      const full = path.join(dir, ent);
+  // For each file get git timestamp (or 0)
+  let best = null;
+  let bestT = 0;
+  for (const f of files) {
+    const t = gitTimestampForPath(f) || 0;
+    if (t > bestT) {
+      bestT = t;
+      best = f;
+    }
+  }
+
+  // If none had git ts, fallback to mtime
+  if (!best) {
+    for (const f of files) {
       try {
-        const st = fs.statSync(full);
-        if (st.isDirectory()) collectFiles(full);
-        else if (st.isFile()) filesList.push(full);
+        const st = fs.statSync(f);
+        const t = st.mtimeMs || 0;
+        if (t > bestT) {
+          bestT = t;
+          best = f;
+        }
       } catch (e) {}
     }
   }
-  collectFiles(exerciseDir);
 
-  let maxT = 0;
-  for (const f of filesList) {
-    const ft = gitTimestampForPath(f);
-    if (ft > maxT) maxT = ft;
-  }
-  if (maxT) return maxT;
-
-  const bestFile = findBestFile(exerciseDir);
-  try {
-    if (bestFile && fs.existsSync(bestFile)) return fs.statSync(bestFile).mtimeMs || 0;
-    if (fs.existsSync(exerciseDir)) return fs.statSync(exerciseDir).mtimeMs || 0;
-  } catch (e) {}
-  return 0;
+  return best;
 }
 
-// Count code lines in a file (remove block comments and // comments, then count non-empty lines)
+// Count code lines in a file (remove comments and blank lines). Attempts to handle common langs.
 function countCodeLines(filePath) {
   try {
     let content = fs.readFileSync(filePath, "utf8");
 
-    // Remove block comments /* ... */ (multi-line)
+    const ext = path.extname(filePath).toLowerCase();
+
+    // Remove block comments like /* ... */ (JS/TS/Java/C/C++)
     content = content.replace(/\/\*[\s\S]*?\*\//g, "");
 
-    // Remove line comments //... (naive: removes everything after // on a line)
-    // This may remove parts of URLs like http:// but it's fine for typical solution files
-    content = content.replace(/\/\/.*$/gm, "");
+    // Remove triple-quoted strings used like block comments in Python ('''...''' or """...""")
+    content = content.replace(/('{3}[\s\S]*?'{3})|("{3}[\s\S]*?"{3})/g, "");
 
-    // Split lines and count non-empty trimmed lines
+    // Remove single-line comments based on language
+    if ([".js", ".ts", ".java", ".cpp", ".c", ".go"].includes(ext)) {
+      // remove // comments (naive)
+      content = content.replace(/\/\/.*$/gm, "");
+    } else if ([".py", ".rb"].includes(ext)) {
+      // remove # comments
+      content = content.replace(/#.*$/gm, "");
+    } else {
+      // generic attempt to remove // style and # style
+      content = content.replace(/\/\/.*$/gm, "");
+      content = content.replace(/#.*$/gm, "");
+    }
+
+    // Split and count non-empty lines
     const lines = content.split(/\r?\n/);
     const codeLines = lines.filter(l => l.trim().length > 0).length;
     return codeLines;
@@ -113,12 +119,19 @@ const languages = readdirSafe(solutionsRoot).filter(lang => {
   return fs.existsSync(p) && fs.statSync(p).isDirectory();
 });
 
+// reorder languages so priorities come first, then rest alphabetically
+const otherLangs = languages.filter(l => !languagePriority.includes(l)).sort();
+const orderedLanguages = [
+  ...languagePriority.filter(p => languages.includes(p)),
+  ...otherLangs
+];
+
 let totalFiles = 0;
 let totalExercises = 0;
 let totalLinesAll = 0;
 const langSummaries = [];
 
-for (const lang of languages) {
+for (const lang of orderedLanguages) {
   const langDir = path.join(solutionsRoot, lang);
   const exercises = readdirSafe(langDir).filter(ex => {
     try {
@@ -130,38 +143,88 @@ for (const lang of languages) {
 
   const exerciseItems = [];
   let langLines = 0;
+  let langFiles = 0;
 
   for (const ex of exercises) {
     const exerciseDir = path.join(langDir, ex);
-    const bestFile = findBestFile(exerciseDir);
-    if (bestFile) totalFiles++;
 
-    // Count lines only for the chosen file (bestFile)
-    if (bestFile) {
-      langLines += countCodeLines(bestFile);
+    // gather all files inside exercise (only count preferred extensions)
+    const allFiles = collectFiles(exerciseDir).filter(f =>
+      preferredExts.includes(path.extname(f).toLowerCase())
+    );
+
+    // Count all files' lines for language totals
+    for (const f of allFiles) {
+      langLines += countCodeLines(f);
+      langFiles++;
     }
 
-    const timestamp = computeExerciseTime(exerciseDir) || 0;
-    const relativeLink = (bestFile ? path.relative(repoRoot, bestFile) : path.relative(repoRoot, exerciseDir)).replace(/\\/g, "/");
+    // Determine newest file to link to (newest of allFiles; if none fallback to any file)
+    let linkTarget = null;
+    let linkTime = 0;
+    if (allFiles.length) {
+      for (const f of allFiles) {
+        const t = gitTimestampForPath(f) || 0;
+        if (t > linkTime) {
+          linkTime = t;
+          linkTarget = f;
+        }
+      }
+      // fallback to mtimes if git gave nothing
+      if (!linkTime) {
+        for (const f of allFiles) {
+          try {
+            const st = fs.statSync(f);
+            const t = st.mtimeMs || 0;
+            if (t > linkTime) {
+              linkTime = t;
+              linkTarget = f;
+            }
+          } catch (e) {}
+        }
+      }
+    } else {
+      // if no preferred ext files, still try to pick any file inside
+      const anyFiles = collectFiles(exerciseDir);
+      if (anyFiles.length) {
+        linkTarget = newestFileInExercise(exerciseDir);
+        linkTime = gitTimestampForPath(linkTarget) || (fs.existsSync(linkTarget) ? fs.statSync(linkTarget).mtimeMs : 0);
+      }
+    }
+
+    if (linkTarget) totalFiles++; // count an exercise as having a file
+
+    // relative link shown in README
+    const relativeLink = linkTarget
+      ? `./${path.relative(repoRoot, linkTarget).replace(/\\/g, "/")}`
+      : `./${path.relative(repoRoot, exerciseDir).replace(/\\/g, "/")}`;
 
     exerciseItems.push({
       name: ex,
-      link: `./${relativeLink}`,
-      mtime: timestamp,
+      link: relativeLink,
+      mtime: linkTime || 0,
     });
   }
 
+  // sort exercises newest-first by mtime, then alphabetically
   exerciseItems.sort((a, b) => {
     if (b.mtime !== a.mtime) return b.mtime - a.mtime;
     return a.name.localeCompare(b.name);
   });
 
-  langSummaries.push({ language: lang, exercises: exerciseItems, count: exerciseItems.length, lines: langLines });
+  langSummaries.push({
+    language: lang,
+    exercises: exerciseItems,
+    count: exerciseItems.length,
+    lines: langLines,
+    files: langFiles,
+  });
+
   totalExercises += exerciseItems.length;
   totalLinesAll += langLines;
 }
 
-// Build stats block
+// Build language list line like: "typescript (14 ex, 181 lines), javascript (30 ex, 832 lines)"
 const langListLine = langSummaries.length
   ? langSummaries.map(s => `${s.language} (${s.count} ex, ${s.lines} lines)`).join(", ")
   : "—";
@@ -179,7 +242,7 @@ const statsMd = `<!-- STATS_START -->
 - 🧾 **Total Lines of Code (approx):** ${totalLinesAll} (${prettyShort(totalLinesAll)} lines)
 <!-- STATS_END -->`;
 
-// Build exercises block
+// Build exercises block (languages appear in orderedLanguages sequence)
 let exercisesMd = "<!-- EXERCISES_START -->\n";
 for (const s of langSummaries) {
   exercisesMd += `\n### ${s.language}\n\n`;
@@ -193,7 +256,7 @@ for (const s of langSummaries) {
 }
 exercisesMd += "<!-- EXERCISES_END -->";
 
-// Update README template and timestamp
+// Read README or create template if missing
 let readme = "";
 try { readme = fs.readFileSync(readmePath, "utf8"); } catch {
   readme = "# Exercism Solutions\n\n<!-- STATS_START -->\n<!-- STATS_END -->\n\n<!-- EXERCISES_START -->\n<!-- EXERCISES_END -->\n";
@@ -214,7 +277,6 @@ else
 // Update last-updated tag (between <!-- UPDATED_AT --> and <!-- /UPDATED_AT -->)
 const nowStr = (() => {
   try {
-    // Use user's timezone (Asia/Colombo) if possible for readable timestamp
     return new Date().toLocaleString("en-GB", { timeZone: "Asia/Colombo" });
   } catch {
     return new Date().toISOString();
