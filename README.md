@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 30/08/2025, 00:08:00 (Asia/Colombo)_
+_Last updated: 01/09/2025, 19:19:39 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -24,8 +24,8 @@ _Last updated: 30/08/2025, 00:08:00 (Asia/Colombo)_
 <!-- STATS_START -->
 - ✅ **Total Exercises:** 44
 - 📁 **Total Files Found:** 44
-- 🌐 **Languages Solved In:** javascript (30 ex, 832 lines), typescript (14 ex, 181 lines)
-- 🧾 **Total Lines of Code (approx):** 1013 (1k lines)
+- 🌐 **Languages Solved In:** typescript (14 ex, 202 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 1045 (1k lines)
 <!-- STATS_END -->
 
 > The stats above are generated automatically.
@@ -35,6 +35,24 @@ _Last updated: 30/08/2025, 00:08:00 (Asia/Colombo)_
 ## 🗂 Exercises (newest first)
 
 <!-- EXERCISES_START -->
+
+### typescript
+
+- [bob](./solutions/typescript/bob/2/bob.ts)
+- [darts](./solutions/typescript/darts/1/darts.ts)
+- [dnd-character](./solutions/typescript/dnd-character/1/dnd-character.ts)
+- [hello-world](./solutions/typescript/hello-world/1/hello-world.ts)
+- [leap](./solutions/typescript/leap/1/leap.ts)
+- [matrix](./solutions/typescript/matrix/1/matrix.ts)
+- [pangram](./solutions/typescript/pangram/1/pangram.ts)
+- [resistor-color](./solutions/typescript/resistor-color/1/resistor-color.ts)
+- [resistor-color-duo](./solutions/typescript/resistor-color-duo/1/resistor-color-duo.ts)
+- [resistor-color-trio](./solutions/typescript/resistor-color-trio/1/resistor-color-trio.ts)
+- [rna-transcription](./solutions/typescript/rna-transcription/1/rna-transcription.ts)
+- [robot-name](./solutions/typescript/robot-name/1/robot-name.ts)
+- [space-age](./solutions/typescript/space-age/1/space-age.ts)
+- [two-fer](./solutions/typescript/two-fer/1/two-fer.ts)
+
 
 ### javascript
 
@@ -60,7 +78,7 @@ _Last updated: 30/08/2025, 00:08:00 (Asia/Colombo)_
 - [lucky-numbers](./solutions/javascript/lucky-numbers/1/lucky-numbers.js)
 - [mixed-juices](./solutions/javascript/mixed-juices/1/mixed-juices.js)
 - [ozans-playlist](./solutions/javascript/ozans-playlist/1/ozans-playlist.js)
-- [pizza-order](./solutions/javascript/pizza-order/1/pizza-order.js)
+- [pizza-order](./solutions/javascript/pizza-order/1/global.d.ts)
 - [poetry-club-door-policy](./solutions/javascript/poetry-club-door-policy/1/door-policy.js)
 - [recycling-robot](./solutions/javascript/recycling-robot/1/assembly-line.js)
 - [regular-chatbot](./solutions/javascript/regular-chatbot/1/regular-chatbot.js)
@@ -68,24 +86,6 @@ _Last updated: 30/08/2025, 00:08:00 (Asia/Colombo)_
 - [translation-service](./solutions/javascript/translation-service/1/service.js)
 - [vehicle-purchase](./solutions/javascript/vehicle-purchase/1/vehicle-purchase.js)
 - [windowing-system](./solutions/javascript/windowing-system/1/windowing-system.js)
-
-
-### typescript
-
-- [bob](./solutions/typescript/bob/2/bob.ts)
-- [darts](./solutions/typescript/darts/1/darts.ts)
-- [dnd-character](./solutions/typescript/dnd-character/1/dnd-character.ts)
-- [hello-world](./solutions/typescript/hello-world/1/hello-world.ts)
-- [leap](./solutions/typescript/leap/1/leap.ts)
-- [matrix](./solutions/typescript/matrix/1/matrix.ts)
-- [pangram](./solutions/typescript/pangram/1/pangram.ts)
-- [resistor-color](./solutions/typescript/resistor-color/1/resistor-color.ts)
-- [resistor-color-duo](./solutions/typescript/resistor-color-duo/1/resistor-color-duo.ts)
-- [resistor-color-trio](./solutions/typescript/resistor-color-trio/1/resistor-color-trio.ts)
-- [rna-transcription](./solutions/typescript/rna-transcription/1/rna-transcription.ts)
-- [robot-name](./solutions/typescript/robot-name/1/robot-name.ts)
-- [space-age](./solutions/typescript/space-age/1/space-age.ts)
-- [two-fer](./solutions/typescript/two-fer/1/two-fer.ts)
 
 <!-- EXERCISES_END -->
 
