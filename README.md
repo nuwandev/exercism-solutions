@@ -1,7 +1,7 @@
 # 🧠 Exercism Solutions
 
 > Hands-on solutions to Exercism exercises — my personal practice and problem-solving playground.  
-> Every solution is authored by me and reflects the approaches I used to learn and improve.
+> I author every solution and reflect the approaches I used to learn and improve.
 
 [![Exercism](https://img.shields.io/badge/Exercism-nuwandev-blue)](https://exercism.org/profiles/nuwandev)
 
@@ -9,9 +9,9 @@
 
 ## 🔎 Quick info
 
-- 🔥 **Current focus:** JavaScript track  
-- ⚙️ **Automation:** README is auto-updated by `update-readme.js` + GitHub Actions (stats + exercise links)  
-- 📬 Exercism sends PRs to this repo when I submit exercises — I merge them and the README updates automatically.
+- 🔥 **Current focus:** TypeScript track  
+- ⚙️ **Automation:** README is auto-updated by `update-readme.js` + GitHub Actions (summary + exercise links)  
+- 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
 _Last updated: 01/09/2025, 19:19:39 (Asia/Colombo)_
@@ -27,8 +27,7 @@ _Last updated: 01/09/2025, 19:19:39 (Asia/Colombo)_
 - 🌐 **Languages Solved In:** typescript (14 ex, 202 lines), javascript (30 ex, 843 lines)
 - 🧾 **Total Lines of Code (approx):** 1045 (1k lines)
 <!-- STATS_END -->
-
-> The stats above are generated automatically.
+<sub><sup>*(Excludes comments and blank/whitespace lines for a more accurate count)*</sup></sub> 
 
 ---
 
