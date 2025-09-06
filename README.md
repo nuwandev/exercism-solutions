@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 01/09/2025, 19:19:39 (Asia/Colombo)_
+_Last updated: 06/09/2025, 11:27:24 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 01/09/2025, 19:19:39 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 44
-- 📁 **Total Files Found:** 44
-- 🌐 **Languages Solved In:** typescript (14 ex, 202 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 1045 (1k lines)
+- ✅ **Total Exercises:** 45
+- 📁 **Total Files Found:** 45
+- 🌐 **Languages Solved In:** typescript (15 ex, 227 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 1070 (1k lines)
 <!-- STATS_END -->
 <sub><sup>*(Excludes comments and blank/whitespace lines for a more accurate count)*</sup></sub> 
 
@@ -40,6 +40,7 @@ _Last updated: 01/09/2025, 19:19:39 (Asia/Colombo)_
 - [bob](./solutions/typescript/bob/2/bob.ts)
 - [darts](./solutions/typescript/darts/1/darts.ts)
 - [dnd-character](./solutions/typescript/dnd-character/1/dnd-character.ts)
+- [grade-school](./solutions/typescript/grade-school/1/grade-school.ts)
 - [hello-world](./solutions/typescript/hello-world/1/hello-world.ts)
 - [leap](./solutions/typescript/leap/1/leap.ts)
 - [matrix](./solutions/typescript/matrix/1/matrix.ts)
