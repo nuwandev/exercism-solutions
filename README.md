@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 06/09/2025, 11:27:45 (Asia/Colombo)_
+_Last updated: 07/09/2025, 16:42:40 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 06/09/2025, 11:27:45 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 45
-- 📁 **Total Files Found:** 45
-- 🌐 **Languages Solved In:** typescript (15 ex, 248 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 1091 (1k lines)
+- ✅ **Total Exercises:** 46
+- 📁 **Total Files Found:** 46
+- 🌐 **Languages Solved In:** typescript (16 ex, 273 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 1116 (1k lines)
 <!-- STATS_END -->
 <sub><sup>*(Excludes comments and blank/whitespace lines for a more accurate count)*</sup></sub> 
 
@@ -38,6 +38,7 @@ _Last updated: 06/09/2025, 11:27:45 (Asia/Colombo)_
 ### typescript
 
 - [bob](./solutions/typescript/bob/2/bob.ts)
+- [clock](./solutions/typescript/clock/1/clock.ts)
 - [darts](./solutions/typescript/darts/1/darts.ts)
 - [dnd-character](./solutions/typescript/dnd-character/1/dnd-character.ts)
 - [grade-school](./solutions/typescript/grade-school/1/grade-school.ts)
