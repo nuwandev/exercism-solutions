@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 07/09/2025, 16:42:40 (Asia/Colombo)_
+_Last updated: 07/09/2025, 16:44:24 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -24,8 +24,8 @@ _Last updated: 07/09/2025, 16:42:40 (Asia/Colombo)_
 <!-- STATS_START -->
 - ✅ **Total Exercises:** 46
 - 📁 **Total Files Found:** 46
-- 🌐 **Languages Solved In:** typescript (16 ex, 273 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 1116 (1k lines)
+- 🌐 **Languages Solved In:** typescript (16 ex, 295 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 1138 (1k lines)
 <!-- STATS_END -->
 <sub><sup>*(Excludes comments and blank/whitespace lines for a more accurate count)*</sup></sub> 
 
