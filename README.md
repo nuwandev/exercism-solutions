@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 09/09/2025, 17:53:10 (Asia/Colombo)_
+_Last updated: 10/09/2025, 18:04:23 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 09/09/2025, 17:53:10 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 48
-- 📁 **Total Files Found:** 48
-- 🌐 **Languages Solved In:** typescript (18 ex, 336 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 1179 (1k lines)
+- ✅ **Total Exercises:** 49
+- 📁 **Total Files Found:** 49
+- 🌐 **Languages Solved In:** typescript (19 ex, 357 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 1200 (1k lines)
 <!-- STATS_END -->
 <sub><sup>*(Excludes comments and blank/whitespace lines for a more accurate count)*</sup></sub> 
 
@@ -45,6 +45,7 @@ _Last updated: 09/09/2025, 17:53:10 (Asia/Colombo)_
 - [grade-school](./solutions/typescript/grade-school/1/grade-school.ts)
 - [hello-world](./solutions/typescript/hello-world/1/hello-world.ts)
 - [leap](./solutions/typescript/leap/1/leap.ts)
+- [linked-list](./solutions/typescript/linked-list/1/linked-list.ts)
 - [matrix](./solutions/typescript/matrix/1/matrix.ts)
 - [pangram](./solutions/typescript/pangram/1/pangram.ts)
 - [resistor-color](./solutions/typescript/resistor-color/1/resistor-color.ts)
