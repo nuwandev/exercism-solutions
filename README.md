@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 12/09/2025, 19:24:35 (Asia/Colombo)_
+_Last updated: 13/09/2025, 15:24:02 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 12/09/2025, 19:24:35 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 51
-- 📁 **Total Files Found:** 51
-- 🌐 **Languages Solved In:** typescript (21 ex, 472 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 1315 (1k lines)
+- ✅ **Total Exercises:** 52
+- 📁 **Total Files Found:** 52
+- 🌐 **Languages Solved In:** typescript (22 ex, 513 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 1356 (1k lines)
 <!-- STATS_END -->
 <sub><sup>*(Excludes comments and blank/whitespace lines for a more accurate count)*</sup></sub> 
 
@@ -56,6 +56,7 @@ _Last updated: 12/09/2025, 19:24:35 (Asia/Colombo)_
 - [rna-transcription](./solutions/typescript/rna-transcription/1/rna-transcription.ts)
 - [robot-name](./solutions/typescript/robot-name/1/robot-name.ts)
 - [secret-handshake](./solutions/typescript/secret-handshake/1/secret-handshake.ts)
+- [simple-cipher](./solutions/typescript/simple-cipher/1/simple-cipher.ts)
 - [space-age](./solutions/typescript/space-age/1/space-age.ts)
 - [two-fer](./solutions/typescript/two-fer/1/two-fer.ts)
 
