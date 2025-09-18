@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 17/09/2025, 16:19:18 (Asia/Colombo)_
+_Last updated: 18/09/2025, 23:06:12 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 17/09/2025, 16:19:18 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 56
-- 📁 **Total Files Found:** 56
-- 🌐 **Languages Solved In:** typescript (26 ex, 643 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 1486 (1k lines)
+- ✅ **Total Exercises:** 57
+- 📁 **Total Files Found:** 57
+- 🌐 **Languages Solved In:** typescript (27 ex, 653 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 1496 (1k lines)
 <!-- STATS_END -->
 <sub><sup>*(Excludes comments and blank/whitespace lines for a more accurate count)*</sup></sub> 
 
@@ -44,6 +44,7 @@ _Last updated: 17/09/2025, 16:19:18 (Asia/Colombo)_
 - [darts](./solutions/typescript/darts/1/darts.ts)
 - [difference-of-squares](./solutions/typescript/difference-of-squares/1/difference-of-squares.ts)
 - [dnd-character](./solutions/typescript/dnd-character/1/dnd-character.ts)
+- [gigasecond](./solutions/typescript/gigasecond/1/gigasecond.ts)
 - [grade-school](./solutions/typescript/grade-school/1/grade-school.ts)
 - [hello-world](./solutions/typescript/hello-world/1/hello-world.ts)
 - [leap](./solutions/typescript/leap/1/leap.ts)
