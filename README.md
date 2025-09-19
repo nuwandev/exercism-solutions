@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 18/09/2025, 23:06:12 (Asia/Colombo)_
+_Last updated: 19/09/2025, 23:00:00 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 18/09/2025, 23:06:12 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 57
-- 📁 **Total Files Found:** 57
-- 🌐 **Languages Solved In:** typescript (27 ex, 653 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 1496 (1k lines)
+- ✅ **Total Exercises:** 58
+- 📁 **Total Files Found:** 58
+- 🌐 **Languages Solved In:** typescript (28 ex, 661 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 1504 (2k lines)
 <!-- STATS_END -->
 <sub><sup>*(Excludes comments and blank/whitespace lines for a more accurate count)*</sup></sub> 
 
@@ -61,6 +61,7 @@ _Last updated: 18/09/2025, 23:06:12 (Asia/Colombo)_
 - [secret-handshake](./solutions/typescript/secret-handshake/1/secret-handshake.ts)
 - [simple-cipher](./solutions/typescript/simple-cipher/1/simple-cipher.ts)
 - [space-age](./solutions/typescript/space-age/1/space-age.ts)
+- [square-root](./solutions/typescript/square-root/1/square-root.ts)
 - [two-fer](./solutions/typescript/two-fer/1/two-fer.ts)
 - [word-count](./solutions/typescript/word-count/1/word-count.ts)
 - [wordy](./solutions/typescript/wordy/1/wordy.ts)
