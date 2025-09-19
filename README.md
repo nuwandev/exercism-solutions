@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 19/09/2025, 23:00:00 (Asia/Colombo)_
+_Last updated: 19/09/2025, 23:09:17 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 19/09/2025, 23:00:00 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 58
-- 📁 **Total Files Found:** 58
-- 🌐 **Languages Solved In:** typescript (28 ex, 661 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 1504 (2k lines)
+- ✅ **Total Exercises:** 59
+- 📁 **Total Files Found:** 59
+- 🌐 **Languages Solved In:** typescript (29 ex, 664 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 1507 (2k lines)
 <!-- STATS_END -->
 <sub><sup>*(Excludes comments and blank/whitespace lines for a more accurate count)*</sup></sub> 
 
@@ -56,6 +56,7 @@ _Last updated: 19/09/2025, 23:00:00 (Asia/Colombo)_
 - [resistor-color](./solutions/typescript/resistor-color/1/resistor-color.ts)
 - [resistor-color-duo](./solutions/typescript/resistor-color-duo/1/resistor-color-duo.ts)
 - [resistor-color-trio](./solutions/typescript/resistor-color-trio/1/resistor-color-trio.ts)
+- [reverse-string](./solutions/typescript/reverse-string/1/reverse-string.ts)
 - [rna-transcription](./solutions/typescript/rna-transcription/1/rna-transcription.ts)
 - [robot-name](./solutions/typescript/robot-name/1/robot-name.ts)
 - [secret-handshake](./solutions/typescript/secret-handshake/1/secret-handshake.ts)
