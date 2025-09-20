@@ -27,7 +27,7 @@ _Last updated: 20/09/2025, 15:25:53 (Asia/Colombo)_
 - 🌐 **Languages Solved In:** typescript (30 ex, 721 lines), javascript (30 ex, 843 lines)
 - 🧾 **Total Lines of Code (approx):** 1564 (2k lines)
 <!-- STATS_END -->
-<sub><sup>*(Excludes comments and blank/whitespace lines for a more accurate count)*</sup></sub> 
+(Excludes comments and blank/whitespace lines for a more accurate count)
 
 ---
 
