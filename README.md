@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 24/09/2025, 20:49:43 (Asia/Colombo)_
+_Last updated: 24/09/2025, 21:23:40 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 24/09/2025, 20:49:43 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 65
-- 📁 **Total Files Found:** 65
-- 🌐 **Languages Solved In:** typescript (35 ex, 808 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 1651 (2k lines)
+- ✅ **Total Exercises:** 66
+- 📁 **Total Files Found:** 66
+- 🌐 **Languages Solved In:** typescript (36 ex, 821 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 1664 (2k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -54,6 +54,7 @@ _Last updated: 24/09/2025, 20:49:43 (Asia/Colombo)_
 - [linked-list](./solutions/typescript/linked-list/1/linked-list.ts)
 - [list-ops](./solutions/typescript/list-ops/1/list-ops.ts)
 - [matrix](./solutions/typescript/matrix/1/matrix.ts)
+- [nucleotide-count](./solutions/typescript/nucleotide-count/1/nucleotide-count.ts)
 - [pangram](./solutions/typescript/pangram/1/pangram.ts)
 - [protein-translation](./solutions/typescript/protein-translation/1/protein-translation.ts)
 - [raindrops](./solutions/typescript/raindrops/1/raindrops.ts)
