@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 23/09/2025, 16:40:35 (Asia/Colombo)_
+_Last updated: 24/09/2025, 20:49:43 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 23/09/2025, 16:40:35 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 64
-- 📁 **Total Files Found:** 64
-- 🌐 **Languages Solved In:** typescript (34 ex, 798 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 1641 (2k lines)
+- ✅ **Total Exercises:** 65
+- 📁 **Total Files Found:** 65
+- 🌐 **Languages Solved In:** typescript (35 ex, 808 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 1651 (2k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -48,6 +48,7 @@ _Last updated: 23/09/2025, 16:40:35 (Asia/Colombo)_
 - [etl](./solutions/typescript/etl/1/etl.ts)
 - [gigasecond](./solutions/typescript/gigasecond/1/gigasecond.ts)
 - [grade-school](./solutions/typescript/grade-school/1/grade-school.ts)
+- [hamming](./solutions/typescript/hamming/1/hamming.ts)
 - [hello-world](./solutions/typescript/hello-world/1/hello-world.ts)
 - [leap](./solutions/typescript/leap/1/leap.ts)
 - [linked-list](./solutions/typescript/linked-list/1/linked-list.ts)
