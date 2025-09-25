@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 24/09/2025, 21:23:40 (Asia/Colombo)_
+_Last updated: 25/09/2025, 22:54:01 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 24/09/2025, 21:23:40 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 66
-- 📁 **Total Files Found:** 66
-- 🌐 **Languages Solved In:** typescript (36 ex, 821 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 1664 (2k lines)
+- ✅ **Total Exercises:** 67
+- 📁 **Total Files Found:** 67
+- 🌐 **Languages Solved In:** typescript (37 ex, 846 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 1689 (2k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -65,6 +65,7 @@ _Last updated: 24/09/2025, 21:23:40 (Asia/Colombo)_
 - [reverse-string](./solutions/typescript/reverse-string/1/reverse-string.ts)
 - [rna-transcription](./solutions/typescript/rna-transcription/1/rna-transcription.ts)
 - [robot-name](./solutions/typescript/robot-name/1/robot-name.ts)
+- [scrabble-score](./solutions/typescript/scrabble-score/1/scrabble-score.ts)
 - [secret-handshake](./solutions/typescript/secret-handshake/1/secret-handshake.ts)
 - [simple-cipher](./solutions/typescript/simple-cipher/1/simple-cipher.ts)
 - [space-age](./solutions/typescript/space-age/1/space-age.ts)
