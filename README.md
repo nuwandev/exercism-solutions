@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 28/09/2025, 22:03:25 (Asia/Colombo)_
+_Last updated: 28/09/2025, 22:48:25 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 28/09/2025, 22:03:25 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 69
-- 📁 **Total Files Found:** 69
-- 🌐 **Languages Solved In:** typescript (39 ex, 888 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 1731 (2k lines)
+- ✅ **Total Exercises:** 70
+- 📁 **Total Files Found:** 70
+- 🌐 **Languages Solved In:** typescript (40 ex, 939 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 1782 (2k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -43,6 +43,7 @@ _Last updated: 28/09/2025, 22:03:25 (Asia/Colombo)_
 - [bob](./solutions/typescript/bob/2/bob.ts)
 - [clock](./solutions/typescript/clock/1/clock.ts)
 - [collatz-conjecture](./solutions/typescript/collatz-conjecture/1/collatz-conjecture.ts)
+- [complex-numbers](./solutions/typescript/complex-numbers/1/complex-numbers.ts)
 - [darts](./solutions/typescript/darts/1/darts.ts)
 - [difference-of-squares](./solutions/typescript/difference-of-squares/1/difference-of-squares.ts)
 - [dnd-character](./solutions/typescript/dnd-character/1/dnd-character.ts)
