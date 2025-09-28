@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 26/09/2025, 15:03:01 (Asia/Colombo)_
+_Last updated: 28/09/2025, 22:03:25 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 26/09/2025, 15:03:01 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 68
-- 📁 **Total Files Found:** 68
-- 🌐 **Languages Solved In:** typescript (38 ex, 872 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 1715 (2k lines)
+- ✅ **Total Exercises:** 69
+- 📁 **Total Files Found:** 69
+- 🌐 **Languages Solved In:** typescript (39 ex, 888 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 1731 (2k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -57,6 +57,7 @@ _Last updated: 26/09/2025, 15:03:01 (Asia/Colombo)_
 - [matrix](./solutions/typescript/matrix/1/matrix.ts)
 - [nucleotide-count](./solutions/typescript/nucleotide-count/1/nucleotide-count.ts)
 - [pangram](./solutions/typescript/pangram/1/pangram.ts)
+- [perfect-numbers](./solutions/typescript/perfect-numbers/1/perfect-numbers.ts)
 - [protein-translation](./solutions/typescript/protein-translation/1/protein-translation.ts)
 - [raindrops](./solutions/typescript/raindrops/1/raindrops.ts)
 - [rational-numbers](./solutions/typescript/rational-numbers/1/rational-numbers.ts)
