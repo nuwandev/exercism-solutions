@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 09/10/2025, 00:17:36 (Asia/Colombo)_
+_Last updated: 10/10/2025, 20:25:19 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 09/10/2025, 00:17:36 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 78
-- 📁 **Total Files Found:** 78
-- 🌐 **Languages Solved In:** typescript (48 ex, 1112 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 1955 (2k lines)
+- ✅ **Total Exercises:** 79
+- 📁 **Total Files Found:** 79
+- 🌐 **Languages Solved In:** typescript (49 ex, 1158 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 2001 (2k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -75,6 +75,7 @@ _Last updated: 09/10/2025, 00:17:36 (Asia/Colombo)_
 - [reverse-string](./solutions/typescript/reverse-string/1/reverse-string.ts)
 - [rna-transcription](./solutions/typescript/rna-transcription/1/rna-transcription.ts)
 - [robot-name](./solutions/typescript/robot-name/1/robot-name.ts)
+- [roman-numerals](./solutions/typescript/roman-numerals/1/roman-numerals.ts)
 - [scrabble-score](./solutions/typescript/scrabble-score/1/scrabble-score.ts)
 - [secret-handshake](./solutions/typescript/secret-handshake/1/secret-handshake.ts)
 - [simple-cipher](./solutions/typescript/simple-cipher/1/simple-cipher.ts)
