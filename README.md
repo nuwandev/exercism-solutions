@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 10/10/2025, 20:25:19 (Asia/Colombo)_
+_Last updated: 12/10/2025, 21:47:31 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 10/10/2025, 20:25:19 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 79
-- 📁 **Total Files Found:** 79
-- 🌐 **Languages Solved In:** typescript (49 ex, 1158 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 2001 (2k lines)
+- ✅ **Total Exercises:** 80
+- 📁 **Total Files Found:** 80
+- 🌐 **Languages Solved In:** typescript (50 ex, 1193 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 2036 (2k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -78,6 +78,7 @@ _Last updated: 10/10/2025, 20:25:19 (Asia/Colombo)_
 - [roman-numerals](./solutions/typescript/roman-numerals/1/roman-numerals.ts)
 - [scrabble-score](./solutions/typescript/scrabble-score/1/scrabble-score.ts)
 - [secret-handshake](./solutions/typescript/secret-handshake/1/secret-handshake.ts)
+- [series](./solutions/typescript/series/1/series.ts)
 - [simple-cipher](./solutions/typescript/simple-cipher/1/simple-cipher.ts)
 - [space-age](./solutions/typescript/space-age/1/space-age.ts)
 - [square-root](./solutions/typescript/square-root/1/square-root.ts)
