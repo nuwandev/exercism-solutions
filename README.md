@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 15/10/2025, 23:36:42 (Asia/Colombo)_
+_Last updated: 16/10/2025, 23:48:40 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 15/10/2025, 23:36:42 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 83
-- 📁 **Total Files Found:** 83
-- 🌐 **Languages Solved In:** typescript (53 ex, 1328 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 2171 (2k lines)
+- ✅ **Total Exercises:** 84
+- 📁 **Total Files Found:** 84
+- 🌐 **Languages Solved In:** typescript (54 ex, 1343 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 2186 (2k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -56,6 +56,7 @@ _Last updated: 15/10/2025, 23:36:42 (Asia/Colombo)_
 - [hamming](./solutions/typescript/hamming/1/hamming.ts)
 - [hello-world](./solutions/typescript/hello-world/1/hello-world.ts)
 - [isogram](./solutions/typescript/isogram/1/isogram.ts)
+- [largest-series-product](./solutions/typescript/largest-series-product/1/largest-series-product.ts)
 - [leap](./solutions/typescript/leap/1/leap.ts)
 - [linked-list](./solutions/typescript/linked-list/1/linked-list.ts)
 - [list-ops](./solutions/typescript/list-ops/1/list-ops.ts)
