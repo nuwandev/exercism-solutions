@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 16/10/2025, 23:48:40 (Asia/Colombo)_
+_Last updated: 19/10/2025, 00:07:48 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 16/10/2025, 23:48:40 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 84
-- 📁 **Total Files Found:** 84
-- 🌐 **Languages Solved In:** typescript (54 ex, 1343 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 2186 (2k lines)
+- ✅ **Total Exercises:** 85
+- 📁 **Total Files Found:** 85
+- 🌐 **Languages Solved In:** typescript (55 ex, 1397 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 2240 (2k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -50,6 +50,7 @@ _Last updated: 16/10/2025, 23:48:40 (Asia/Colombo)_
 - [difference-of-squares](./solutions/typescript/difference-of-squares/1/difference-of-squares.ts)
 - [dnd-character](./solutions/typescript/dnd-character/1/dnd-character.ts)
 - [etl](./solutions/typescript/etl/1/etl.ts)
+- [food-chain](./solutions/typescript/food-chain/1/food-chain.ts)
 - [gigasecond](./solutions/typescript/gigasecond/1/gigasecond.ts)
 - [grade-school](./solutions/typescript/grade-school/1/grade-school.ts)
 - [grains](./solutions/typescript/grains/1/grains.ts)
