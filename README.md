@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 19/10/2025, 00:07:48 (Asia/Colombo)_
+_Last updated: 21/10/2025, 21:35:35 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 19/10/2025, 00:07:48 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 85
-- 📁 **Total Files Found:** 85
-- 🌐 **Languages Solved In:** typescript (55 ex, 1397 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 2240 (2k lines)
+- ✅ **Total Exercises:** 86
+- 📁 **Total Files Found:** 86
+- 🌐 **Languages Solved In:** typescript (56 ex, 1497 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 2340 (2k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -56,6 +56,7 @@ _Last updated: 19/10/2025, 00:07:48 (Asia/Colombo)_
 - [grains](./solutions/typescript/grains/1/grains.ts)
 - [hamming](./solutions/typescript/hamming/1/hamming.ts)
 - [hello-world](./solutions/typescript/hello-world/1/hello-world.ts)
+- [house](./solutions/typescript/house/1/house.ts)
 - [isogram](./solutions/typescript/isogram/1/isogram.ts)
 - [largest-series-product](./solutions/typescript/largest-series-product/1/largest-series-product.ts)
 - [leap](./solutions/typescript/leap/1/leap.ts)
