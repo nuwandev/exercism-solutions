@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 22/10/2025, 20:57:16 (Asia/Colombo)_
+_Last updated: 25/10/2025, 11:36:49 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 22/10/2025, 20:57:16 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 87
-- 📁 **Total Files Found:** 87
-- 🌐 **Languages Solved In:** typescript (57 ex, 1601 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 2444 (2k lines)
+- ✅ **Total Exercises:** 88
+- 📁 **Total Files Found:** 88
+- 🌐 **Languages Solved In:** typescript (58 ex, 1646 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 2489 (2k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -69,6 +69,7 @@ _Last updated: 22/10/2025, 20:57:16 (Asia/Colombo)_
 - [pangram](./solutions/typescript/pangram/1/pangram.ts)
 - [perfect-numbers](./solutions/typescript/perfect-numbers/1/perfect-numbers.ts)
 - [phone-number](./solutions/typescript/phone-number/1/phone-number.ts)
+- [pig-latin](./solutions/typescript/pig-latin/1/pig-latin.ts)
 - [protein-translation](./solutions/typescript/protein-translation/1/protein-translation.ts)
 - [pythagorean-triplet](./solutions/typescript/pythagorean-triplet/1/pythagorean-triplet.ts)
 - [raindrops](./solutions/typescript/raindrops/1/raindrops.ts)
