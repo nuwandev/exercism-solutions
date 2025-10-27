@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 26/10/2025, 22:08:07 (Asia/Colombo)_
+_Last updated: 27/10/2025, 23:38:20 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 26/10/2025, 22:08:07 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 89
-- 📁 **Total Files Found:** 89
-- 🌐 **Languages Solved In:** typescript (59 ex, 1653 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 2496 (2k lines)
+- ✅ **Total Exercises:** 90
+- 📁 **Total Files Found:** 90
+- 🌐 **Languages Solved In:** typescript (60 ex, 1696 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 2539 (3k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -91,6 +91,7 @@ _Last updated: 26/10/2025, 22:08:07 (Asia/Colombo)_
 - [square-root](./solutions/typescript/square-root/1/square-root.ts)
 - [sum-of-multiples](./solutions/typescript/sum-of-multiples/1/sum-of-multiples.ts)
 - [triangle](./solutions/typescript/triangle/1/triangle.ts)
+- [twelve-days](./solutions/typescript/twelve-days/1/twelve-days.ts)
 - [two-bucket](./solutions/typescript/two-bucket/1/two-bucket.ts)
 - [two-fer](./solutions/typescript/two-fer/1/two-fer.ts)
 - [variable-length-quantity](./solutions/typescript/variable-length-quantity/1/variable-length-quantity.ts)
