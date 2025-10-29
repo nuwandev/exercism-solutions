@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 27/10/2025, 23:38:20 (Asia/Colombo)_
+_Last updated: 29/10/2025, 13:14:31 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 27/10/2025, 23:38:20 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 90
-- 📁 **Total Files Found:** 90
-- 🌐 **Languages Solved In:** typescript (60 ex, 1696 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 2539 (3k lines)
+- ✅ **Total Exercises:** 91
+- 📁 **Total Files Found:** 91
+- 🌐 **Languages Solved In:** typescript (61 ex, 1719 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 2562 (3k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -41,6 +41,7 @@ _Last updated: 27/10/2025, 23:38:20 (Asia/Colombo)_
 - [allergies](./solutions/typescript/allergies/1/allergies.ts)
 - [anagram](./solutions/typescript/anagram/1/anagram.ts)
 - [atbash-cipher](./solutions/typescript/atbash-cipher/1/atbash-cipher.ts)
+- [beer-song](./solutions/typescript/beer-song/1/beer-song.ts)
 - [binary-search](./solutions/typescript/binary-search/1/binary-search.ts)
 - [bob](./solutions/typescript/bob/2/bob.ts)
 - [clock](./solutions/typescript/clock/1/clock.ts)
