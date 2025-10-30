@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 29/10/2025, 13:14:31 (Asia/Colombo)_
+_Last updated: 30/10/2025, 22:36:45 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 29/10/2025, 13:14:31 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 91
-- 📁 **Total Files Found:** 91
-- 🌐 **Languages Solved In:** typescript (61 ex, 1719 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 2562 (3k lines)
+- ✅ **Total Exercises:** 92
+- 📁 **Total Files Found:** 92
+- 🌐 **Languages Solved In:** typescript (62 ex, 1807 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 2650 (3k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -84,6 +84,7 @@ _Last updated: 29/10/2025, 13:14:31 (Asia/Colombo)_
 - [rna-transcription](./solutions/typescript/rna-transcription/1/rna-transcription.ts)
 - [robot-name](./solutions/typescript/robot-name/1/robot-name.ts)
 - [roman-numerals](./solutions/typescript/roman-numerals/1/roman-numerals.ts)
+- [say](./solutions/typescript/say/1/say.ts)
 - [scrabble-score](./solutions/typescript/scrabble-score/1/scrabble-score.ts)
 - [secret-handshake](./solutions/typescript/secret-handshake/1/secret-handshake.ts)
 - [series](./solutions/typescript/series/1/series.ts)
