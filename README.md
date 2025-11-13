@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 10/11/2025, 21:55:00 (Asia/Colombo)_
+_Last updated: 13/11/2025, 22:06:52 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 10/11/2025, 21:55:00 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 94
-- 📁 **Total Files Found:** 94
-- 🌐 **Languages Solved In:** typescript (64 ex, 1935 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 2778 (3k lines)
+- ✅ **Total Exercises:** 95
+- 📁 **Total Files Found:** 95
+- 🌐 **Languages Solved In:** typescript (65 ex, 1956 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 2799 (3k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -92,6 +92,7 @@ _Last updated: 10/11/2025, 21:55:00 (Asia/Colombo)_
 - [series](./solutions/typescript/series/1/series.ts)
 - [simple-cipher](./solutions/typescript/simple-cipher/1/simple-cipher.ts)
 - [space-age](./solutions/typescript/space-age/1/space-age.ts)
+- [spiral-matrix](./solutions/typescript/spiral-matrix/1/spiral-matrix.ts)
 - [square-root](./solutions/typescript/square-root/1/square-root.ts)
 - [sum-of-multiples](./solutions/typescript/sum-of-multiples/1/sum-of-multiples.ts)
 - [triangle](./solutions/typescript/triangle/1/triangle.ts)
