@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 13/11/2025, 22:06:52 (Asia/Colombo)_
+_Last updated: 15/11/2025, 21:19:33 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 13/11/2025, 22:06:52 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 95
-- 📁 **Total Files Found:** 95
-- 🌐 **Languages Solved In:** typescript (65 ex, 1956 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 2799 (3k lines)
+- ✅ **Total Exercises:** 96
+- 📁 **Total Files Found:** 96
+- 🌐 **Languages Solved In:** typescript (66 ex, 1976 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 2819 (3k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -95,6 +95,7 @@ _Last updated: 13/11/2025, 22:06:52 (Asia/Colombo)_
 - [spiral-matrix](./solutions/typescript/spiral-matrix/1/spiral-matrix.ts)
 - [square-root](./solutions/typescript/square-root/1/square-root.ts)
 - [sum-of-multiples](./solutions/typescript/sum-of-multiples/1/sum-of-multiples.ts)
+- [transpose](./solutions/typescript/transpose/1/transpose.ts)
 - [triangle](./solutions/typescript/triangle/1/triangle.ts)
 - [twelve-days](./solutions/typescript/twelve-days/1/twelve-days.ts)
 - [two-bucket](./solutions/typescript/two-bucket/1/two-bucket.ts)
