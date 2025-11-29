@@ -35,5 +35,5 @@ jobs:
             echo "No README changes to commit"
           else
             git commit -m "🤖 Auto-update README exercises list"
-            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:${{ github.ref_name }}
+            git push
           fi
