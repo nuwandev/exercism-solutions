@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 15/11/2025, 21:19:55 (Asia/Colombo)_
+_Last updated: 29/11/2025, 21:43:05 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 15/11/2025, 21:19:55 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 96
-- 📁 **Total Files Found:** 96
-- 🌐 **Languages Solved In:** typescript (66 ex, 1989 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 2832 (3k lines)
+- ✅ **Total Exercises:** 97
+- 📁 **Total Files Found:** 97
+- 🌐 **Languages Solved In:** typescript (67 ex, 2018 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 2861 (3k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -67,6 +67,7 @@ _Last updated: 15/11/2025, 21:19:55 (Asia/Colombo)_
 - [luhn](./solutions/typescript/luhn/1/luhn.ts)
 - [matrix](./solutions/typescript/matrix/1/matrix.ts)
 - [nucleotide-count](./solutions/typescript/nucleotide-count/1/nucleotide-count.ts)
+- [ocr-numbers](./solutions/typescript/ocr-numbers/1/ocr-numbers.ts)
 - [pangram](./solutions/typescript/pangram/1/pangram.ts)
 - [perfect-numbers](./solutions/typescript/perfect-numbers/1/perfect-numbers.ts)
 - [phone-number](./solutions/typescript/phone-number/1/phone-number.ts)
