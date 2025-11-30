@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 29/11/2025, 21:43:05 (Asia/Colombo)_
+_Last updated: 30/11/2025, 16:58:54 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 29/11/2025, 21:43:05 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 97
-- 📁 **Total Files Found:** 97
-- 🌐 **Languages Solved In:** typescript (67 ex, 2018 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 2861 (3k lines)
+- ✅ **Total Exercises:** 98
+- 📁 **Total Files Found:** 98
+- 🌐 **Languages Solved In:** typescript (68 ex, 2039 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 2882 (3k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -66,6 +66,7 @@ _Last updated: 29/11/2025, 21:43:05 (Asia/Colombo)_
 - [list-ops](./solutions/typescript/list-ops/1/list-ops.ts)
 - [luhn](./solutions/typescript/luhn/1/luhn.ts)
 - [matrix](./solutions/typescript/matrix/1/matrix.ts)
+- [nth-prime](./solutions/typescript/nth-prime/1/nth-prime.ts)
 - [nucleotide-count](./solutions/typescript/nucleotide-count/1/nucleotide-count.ts)
 - [ocr-numbers](./solutions/typescript/ocr-numbers/1/ocr-numbers.ts)
 - [pangram](./solutions/typescript/pangram/1/pangram.ts)
