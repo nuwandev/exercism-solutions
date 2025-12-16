@@ -14,7 +14,7 @@
 - 📬 Exercism sends PRs to this repo when I submit exercises — I merge them, and the README updates automatically.
 
 <!-- UPDATED_AT -->
-_Last updated: 08/12/2025, 14:53:20 (Asia/Colombo)_
+_Last updated: 16/12/2025, 21:00:19 (Asia/Colombo)_
 <!-- /UPDATED_AT -->
 
 ---
@@ -22,10 +22,10 @@ _Last updated: 08/12/2025, 14:53:20 (Asia/Colombo)_
 ## 📈 Progress Summary
 
 <!-- STATS_START -->
-- ✅ **Total Exercises:** 99
-- 📁 **Total Files Found:** 99
-- 🌐 **Languages Solved In:** typescript (69 ex, 2078 lines), javascript (30 ex, 843 lines)
-- 🧾 **Total Lines of Code (approx):** 2921 (3k lines)
+- ✅ **Total Exercises:** 100
+- 📁 **Total Files Found:** 100
+- 🌐 **Languages Solved In:** typescript (70 ex, 2113 lines), javascript (30 ex, 843 lines)
+- 🧾 **Total Lines of Code (approx):** 2956 (3k lines)
 <!-- STATS_END -->
 (Excludes comments and blank/whitespace lines for a more accurate count)
 
@@ -50,6 +50,7 @@ _Last updated: 08/12/2025, 14:53:20 (Asia/Colombo)_
 - [complex-numbers](./solutions/typescript/complex-numbers/1/complex-numbers.ts)
 - [darts](./solutions/typescript/darts/1/darts.ts)
 - [difference-of-squares](./solutions/typescript/difference-of-squares/1/difference-of-squares.ts)
+- [diffie-hellman](./solutions/typescript/diffie-hellman/1/diffie-hellman.ts)
 - [dnd-character](./solutions/typescript/dnd-character/1/dnd-character.ts)
 - [etl](./solutions/typescript/etl/1/etl.ts)
 - [food-chain](./solutions/typescript/food-chain/1/food-chain.ts)
